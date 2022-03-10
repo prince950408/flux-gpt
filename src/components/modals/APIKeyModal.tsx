@@ -41,10 +41,7 @@ export function APIKeyModal({
           <APIKeyInput apiKey={apiKey} setApiKey={setApiKeyTracked} />
           <Text mt={5} width="80%" textAlign="center" fontSize="md">
             We will <u>never</u> upload, log, or store your API key outside of your
-            browser's local storage. Verify for yourself{" "}
-            <Link href="https://github.com/transmissions11/flux" color="green" isExternal>
-              here
-            </Link>
+            browser's local storage.
             .
           </Text>
         </Column>
